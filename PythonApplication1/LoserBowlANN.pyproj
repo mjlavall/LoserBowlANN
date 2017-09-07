@@ -5,7 +5,7 @@
     <ProjectGuid>e8887b9d-f642-486b-858a-f23e65293360</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>LoserBowlNet.py</StartupFile>
+    <StartupFile>ann.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,7 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LoserBowlNet.py" />
+    <Compile Include="ann.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6-32" />
