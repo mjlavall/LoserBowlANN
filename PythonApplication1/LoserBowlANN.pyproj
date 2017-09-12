@@ -5,7 +5,7 @@
     <ProjectGuid>e8887b9d-f642-486b-858a-f23e65293360</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>ann.py</StartupFile>
+    <StartupFile>training_redux.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ann.py" />
+    <Compile Include="training_redux.py" />
+    <Compile Include="training_original.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6-32" />
